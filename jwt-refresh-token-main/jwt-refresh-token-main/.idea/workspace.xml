@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c87d38f9-5130-4167-bd25-7043def3b636" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Role Based Authentication/Role-Based-Authentication/src/main/java/com/Role/Based/Authentication/Role/Based/Authentication/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Role Based Authentication/Role-Based-Authentication/src/main/java/com/Role/Based/Authentication/Role/Based/Authentication/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Role Based Authentication/Role-Based-Authentication/src/main/java/com/Role/Based/Authentication/Role/Based/Authentication/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Role Based Authentication/Role-Based-Authentication/src/main/java/com/Role/Based/Authentication/Role/Based/Authentication/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Role Based Authentication/Role-Based-Authentication/src/main/java/com/Role/Based/Authentication/Role/Based/Authentication/repo/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Role Based Authentication/Role-Based-Authentication/src/main/java/com/Role/Based/Authentication/Role/Based/Authentication/service/MyUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../hibernate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../hibernate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sat_sun_Practice" beforeDir="false" afterPath="$PROJECT_DIR$/../../../sat_sun_Practice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../servlet/RequestDispatcherServlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../servlet/RequestDispatcherServlet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../servlet/RequestDispatcherServlet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../servlet/RequestDispatcherServlet/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../servlet/login-jsp-servlet-jdbc-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../servlet/login-jsp-servlet-jdbc-example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../servlet/servlet/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../servlet/servlet/target/classes/META-INF/maven/servlet.demo/servlet/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../servlet/servlet/target/classes/META-INF/maven/servlet.demo/servlet/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../servlet/servlet/target/classes/servlet/demo/servlet/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../servlet/servletDemo/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../servlet/servletDemo/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../servlet/servletDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../servlet/servletDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springBoot" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springBoot" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2lQbIHuRaVZWFQzVXGwulBpoaLC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/DELL/Desktop/rjay/JWT-Authentication-SpringBoot-main/JWT-Authentication-SpringBoot-main",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c87d38f9-5130-4167-bd25-7043def3b636" name="Changes" comment="" />
+      <created>1725115169751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725115169751</updated>
+    </task>
+    <servers />
+  </component>
+</project>
