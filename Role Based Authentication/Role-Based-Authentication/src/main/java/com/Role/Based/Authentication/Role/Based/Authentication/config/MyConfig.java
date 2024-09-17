@@ -19,13 +19,16 @@ import org.springframework.security.web.SecurityFilterChain;
         @Bean
         public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
             http
-                    .csrf(csrf -> csrf.disable())
-                    .cors(cors -> cors.disable())
+
                     .authorizeHttpRequests(req -> req
 
-                            .requestMatchers("/api/getApi").hasRole("ADMIN").anyRequest().authenticated()
-                    ).httpBasic(Customizer.withDefaults());
+                            .requestMatchers("/welcome").permitAll()
+                            .anyRequest()
+                            .authenticated())
+                    .httpBasic(Customizer.withDefaults());
             return http.build();
+
+
         }
 
     @Bean

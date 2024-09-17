@@ -11,4 +11,10 @@ import org.springframework.web.client.RestTemplate;
     @RequestMapping("/api")
     public class BookController {
 
+    @GetMapping("getApi")
+    public String BookControllerEx(){
+
+        return "welcome to password secure Book controller";
+    }
+
     }
