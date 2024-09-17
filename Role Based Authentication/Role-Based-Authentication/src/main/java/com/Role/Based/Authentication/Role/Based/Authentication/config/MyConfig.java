@@ -28,13 +28,25 @@ import org.springframework.security.web.SecurityFilterChain;
             return http.build();
         }
 
+    @Bean
+    public SecurityFilterChain securityFilterChain2(HttpSecurity http) throws Exception {
+        http
+                .csrf(csrf -> csrf.disable())
+                .cors(cors -> cors.disable())
+                .authorizeHttpRequests(req -> req
+
+                        .requestMatchers("/api/getApi").hasRole("ADMIN").anyRequest().authenticated()
+                ).httpBasic(Customizer.withDefaults());
+        return http.build();
+    }
+
         @Bean
         public UserDetailsService userDetailsService() {
-            UserDetails user = User.builder()
-                    .username("user")
-                    .password(passwordEncoder().encode("user123"))
-                    .roles("USER")
-                    .build();
+            UserDetails user = User.builder().
+                    username("user").
+                    password(passwordEncoder().
+                            encode("user123"))
+                    .roles("USER").build();
             UserDetails admin = User.builder()
                     .username("admin")
                     .password(passwordEncoder().encode("admin123"))
